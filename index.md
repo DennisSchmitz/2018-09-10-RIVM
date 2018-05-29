@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Rijksinstituut voor Volksgezondheid en Milieu (RIVM)"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Room T.007, Antonie van Leeuwenhoeklaan 9, 3721 MA Bilthoven"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Room T.007, T-Building (Enter the V-building near the main entrance, go straight ahead past the seal statue, it's behind the staircase), Antonie van Leeuwenhoeklaan 9, 3721 MA Bilthoven"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "NL"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "EN"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "52.118524,5.189059"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
