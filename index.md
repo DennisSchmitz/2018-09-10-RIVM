@@ -295,12 +295,14 @@ and our administrator may contact you if we need any extra information.</h4>
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
-<p>
+<!--<p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+-->
 
+<!--
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
 
@@ -781,3 +783,4 @@ and our administrator may contact you if we need any extra information.</h4>
   </ol>
 </div>
 {% endcomment %}
+-->
