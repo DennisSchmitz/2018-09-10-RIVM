@@ -288,7 +288,7 @@ TODO: Make etherpad with link http://pad.software-carpentry.org/2018-09-10-RIVM
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-
+<!--
 <h2 id="setup">Setup</h2>
 
 <p>
@@ -304,6 +304,8 @@ TODO: Make etherpad with link http://pad.software-carpentry.org/2018-09-10-RIVM
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
+-->
+
 <!--<p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
