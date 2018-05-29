@@ -46,24 +46,72 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+<h4>This is the workshop template. Delete these lines and use it to customize your own website.
+If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
+<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
+and our administrator may contact you if we need any extra information.</h4>
+
 <h2 id="general">General Information</h2>
 
-The lessons use the
-[Software Carpentry]({{ site.swc_site }}) and
-[Data Carpentry]({{ site.dc_site }}) lesson template and are based on the [Data Carpentry Genomics lesson]({{ site.dc_site }}).
+{% comment %}
+  INTRODUCTION
 
-### AUDIENCE
+  Edit the general explanatory paragraph below if you want to change
+  the pitch.
+{% endcomment %}
+{% if page.carpentry == "swc" %}
+  {% include sc/intro.html %}
+{% elsif page.carpentry == "dc" %}
+  {% include dc/intro.html %}
+{% elsif page.carpentry == "lc" %}
+  {% include lc/intro.html %}
+{% endif %}
 
-This course is for RIVM analists, PhD Students and researcher who are interested in Next-Generation Sequencing (NGS) data analysis. <strong>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</strong>
+{% comment %}
+  AUDIENCE
 
-### LOCATION
+  Explain who your audience is.  (In particular, tell readers if the
+  workshop is only open to people from a particular institution.
+{% endcomment %}
+{% if page.carpentry == "swc" %}
+  {% include sc/who.html %}
+{% elsif page.carpentry == "dc" %}
+  {% include dc/who.html %}
+{% elsif page.carpentry == "lc" %}
+  {% include lc/who.html %}
+{% endif %}
 
-RIVM, T.007
+{% comment %}
+  LOCATION
 
-> ### DATA
->
-> In days 1-2 we will use data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population by Blount ZD, Barrick JE, Davidson CJ, and Lenski RE. (doi: 10.1038/nature11514)](https://www.nature.com/articles/nature11514).
-{: .prereq}
+  This block displays the address and links to maps showing directions
+  if the latitude and longitude of the workshop have been set.  You
+  can use https://itouchmap.com/latlong.html to find the lat/long of an
+  address.
+{% endcomment %}
+{% if page.latlng %}
+<p id="where">
+  <strong>Where:</strong>
+  {{page.address}}.
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+</p>
+{% endif %}
+
+{% comment %}
+  DATE
+
+  This block displays the date and links to Google Calendar.
+{% endcomment %}
+{% if page.humandate %}
+<p id="when">
+  <strong>When:</strong>
+  {{page.humandate}}.
+  {% include workshop_calendar.html %}
+</p>
+{% endif %}
 
 {% comment %}
   SPECIAL REQUIREMENTS
@@ -103,7 +151,10 @@ RIVM, T.007
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
-  organizers in advance.
+  organizers in advance.  If we can help making learning easier for
+  you (e.g. sign-language interpreters, lactation facilities) please
+  get in touch (using contact details below) and we will
+  attempt to provide them.
 </p>
 
 {% comment %}
