@@ -133,6 +133,16 @@ and our administrator may contact you if we need any extra information.</h4>
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 </p>
 
+> ## Data
+>
+> In days 1-2 we will use data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population by Blount ZD, Barrick JE, Davidson CJ, and Lenski RE. (doi: 10.1038/nature11514)](https://www.nature.com/articles/nature11514).
+>
+> We are using [this](http://pad.software-carpentry.org/2018-04-03-Utrecht) collaborative document.
+>
+> The etherpad of Day 1 is archived [here](files/2018-04-03-Utrecht-Day1.pdf).
+> The etherpad of Day 2 is archived [here](files/2018-04-03-Utrecht-Day2.pdf).
+{: .prereq}
+
 {% comment %}
   ACCESSIBILITY
 
