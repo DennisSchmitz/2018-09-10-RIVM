@@ -48,19 +48,24 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="general">General Information</h2>
 
-## INTRODUCTION
+### INTRODUCTION
 
-The lessons of the first two days use the
+The lessons use the
 [Software Carpentry]({{ site.swc_site }}) and
 [Data Carpentry]({{ site.dc_site }}) lesson template and are based on the [Data Carpentry Genomics lesson]({{ site.dc_site }}).
 
-## AUDIENCE
+### AUDIENCE
 
 This course is for RIVM analists, PhD Students and researcher who are interested in Next-Generation Sequencing (NGS) data analysis. <strong>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</strong>
 
-## LOCATION
+### LOCATION
 
 RIVM, T.007
+
+> ### DATA
+>
+>
+> In days 1-2 we will use data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population by Blount ZD, Barrick JE, Davidson CJ, and Lenski RE. (doi: 10.1038/nature11514)](https://www.nature.com/articles/nature11514).
 
 {% comment %}
   SPECIAL REQUIREMENTS
