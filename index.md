@@ -215,11 +215,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% comment %}
-{% if page.carpentry == "dc" %}
-  {% include schedule.md %}
-{% endcomment %}
-
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
