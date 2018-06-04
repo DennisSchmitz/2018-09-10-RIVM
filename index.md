@@ -135,12 +135,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 > We are using [this](http://pad.software-carpentry.org/2018-09-10-RIVM) collaborative document for chatting, taking notes, and sharing URLs and bits of code.
 >
 > Useful resources and manuals:
-> [FASTA Format Definition](https://en.wikipedia.org/wiki/FASTA_format)
-> [FASTQ Format Definition](https://en.wikipedia.org/wiki/FASTQ_format)
-> [SAM/BAM Format Definition](https://samtools.github.io/hts-specs/SAMv1.pdf)
-> [VCF/BCF Format Definition](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
-> [Trimmomatic Website](http://www.usadellab.org/cms/?page=trimmomatic)
-> [FastQC Website](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+> [FASTA Format Definition](https://en.wikipedia.org/wiki/FASTA_format)  
+> [FASTQ Format Definition](https://en.wikipedia.org/wiki/FASTQ_format)  
+> [SAM/BAM Format Definition](https://samtools.github.io/hts-specs/SAMv1.pdf)  
+> [VCF/BCF Format Definition](https://samtools.github.io/hts-specs/VCFv4.2.pdf)  
+> [Trimmomatic Website](http://www.usadellab.org/cms/?page=trimmomatic)  
+> [FastQC Website](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)  
 {: .prereq}
 
 {% comment %}
