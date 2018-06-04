@@ -1,4 +1,10 @@
 ---
+layout: lesson
+root: .
+permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
+---
+
+---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Rijksinstituut voor Volksgezondheid en Milieu (RIVM)"        # brief name of host site without address (e.g., "Euphoric State University")
@@ -45,11 +51,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   scrolling="auto">
 </iframe>
 {% endif %}
-
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
