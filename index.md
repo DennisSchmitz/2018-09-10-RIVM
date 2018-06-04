@@ -1,10 +1,4 @@
 ---
-layout: lesson
-root: .
-permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
----
-
----
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Rijksinstituut voor Volksgezondheid en Milieu (RIVM)"        # brief name of host site without address (e.g., "Euphoric State University")
