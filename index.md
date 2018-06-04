@@ -215,6 +215,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
+All courses, code and examples will be shared after the course using this PLACEHOLDER link.
+<!--
+This is the schedule for the course with all code and examples: <a href="https://rivm-bioinformatics.github.io/2018-09-10-RIVM/schedule">schedule</a>
+-->
+
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -222,9 +227,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
-
-This is the schedule for the course with all code and examples: <a href="https://rivm-bioinformatics.github.io/2018-09-10-RIVM/schedule">schedule</a>
-
 
 {% comment %}
   Collaborative Notes
