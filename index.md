@@ -132,9 +132,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 >
 > During the course we will use data from a long term evolution experiment published in 2012: [Genomic analysis of a key innovation in an experimental Escherichia coli population by Blount ZD, Barrick JE, Davidson CJ, and Lenski RE. (doi: 10.1038/nature11514)](https://www.nature.com/articles/nature11514).
 >
-> We are using [this](http://pad.software-carpentry.org/2018-09-10-RIVM) collaborative document for chatting, taking notes, and sharing URLs and bits of code.
+> We are using [this collaborative document](http://pad.software-carpentry.org/2018-09-10-RIVM) for chatting, taking notes, and sharing URLs and bits of code.
 >
-> Useful resources and manuals:
+> Useful resources and manuals:  
 > [FASTA Format Definition](https://en.wikipedia.org/wiki/FASTA_format)  
 > [FASTQ Format Definition](https://en.wikipedia.org/wiki/FASTQ_format)  
 > [SAM/BAM Format Definition](https://samtools.github.io/hts-specs/SAMv1.pdf)  
