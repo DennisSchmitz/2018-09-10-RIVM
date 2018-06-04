@@ -217,16 +217,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 All courses, code and examples will be shared after the course using this PLACEHOLDER link.
 
-This is the schedule for the course with all code and examples: <a href="https://rivm-bioinformatics.github.io/2018-09-10-RIVM/schedule">schedule</a>
-
-
-{% if page.carpentry == "swc" %}
-  {% include sc/schedule.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/schedule.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/schedule.html %}
-{% endif %}
+N.B. The actual schedule may vary slightly depending on the topics and exercises chosen by the intructors.
 
 {% comment %}
   Collaborative Notes
@@ -242,6 +233,18 @@ This is the schedule for the course with all code and examples: <a href="https:/
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
+{% endif %}
+
+<!--
+This is the schedule for the course with all code and examples: <a href="https://rivm-bioinformatics.github.io/2018-09-10-RIVM/schedule">schedule</a>
+-->
+
+{% if page.carpentry == "swc" %}
+  {% include sc/schedule.html %}
+{% elsif page.carpentry == "dc" %}
+  {% include dc/schedule.html %}
+{% elsif page.carpentry == "lc" %}
+  {% include lc/schedule.html %}
 {% endif %}
 
 <hr/>
