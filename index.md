@@ -223,6 +223,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% include lc/schedule.html %}
 {% endif %}
 
+This is the schedule for the course with all code and examples: <a href="https://rivm-bioinformatics.github.io/2018-09-10-RIVM/schedule">schedule</a>
+
+
 {% comment %}
   Collaborative Notes
 
