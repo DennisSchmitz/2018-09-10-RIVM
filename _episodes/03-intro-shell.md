@@ -167,7 +167,7 @@ Let's look at how our file system is organized.
 At the top is our `dcuser` directory, which holds all the 
 subdirectories and files.
 
-Inside that directory are some other directories:
+Inside that directory are some other directories, we can see them using the `ls` command:
 
 ~~~
 FastQC	TrimGalore-0.4.5  Trimmomatic-0.32  dc_sample_data  freebayes  pplacer-Linux-v1.1.alpha17  quast-4.6.1
