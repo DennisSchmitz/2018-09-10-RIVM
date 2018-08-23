@@ -39,9 +39,9 @@ window.onload = set_page_view_defaults;
 This lesson covers how to log into, and out of, an *already running* Amazon instance.
 
 
-## Background to AWS
+## Background to Amazon Web Services (AWS)
 
-Setting up a new AWS instance requires a credit card, an AWS account, and up to
+Setting up a new Amazon Web Services (AWS) instance requires a credit card, an AWS account, and up to
 a day of verification time. To save time, your instructor launched a remote computer (instance) for you prior
 to the workshop, and connected it to our lesson data. You've already logged into it at
 least once, but now that you're more comfortable with the command line, lets go back and talk about how it all works.
